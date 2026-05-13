@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta</title>
+  <link rel="stylesheet" href="Carta.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      /* CAMBIA 'tu-foto.jpg' por el nombre de tu imagen con su extensión (.jpg o .png) */
+      background-image: url(20260410_183257.jpg); 
+      
+      background-size: cover;      /* Esto hace que la foto cubra toda la pantalla */
+      background-position: center;  /* Centra la imagen */
+      background-repeat: no-repeat; /* No deja que la foto se repita como mosaico */
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container-letter">
+      <div class="cover"></div>
+      <span class="heart">♥</span>
+      <p class="paper" id="mainMessage">
+        ❤️ Para mi mami rica, en este día tan especial. Eres mi alegría, mi gran amor y mi cómplice. Gracias por estar conmigo siempre. ¡Te amo mucho! ❤️
+
+Atentamente,
+Tu papi rico ⚡
+      </p>
+      <div class="letter"></div>
+    </div>
+    <div class="options">
+      <button id="open">Abrir</button>
+      <button id="close">Cerrar</button> </div>
+  </main>
+  <script src="Carta.js"></script>
+</body>
+</html>
